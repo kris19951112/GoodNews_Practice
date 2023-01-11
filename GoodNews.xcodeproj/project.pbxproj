@@ -13,6 +13,7 @@
 		8A1DCC27296DB2E100F328E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DCC26296DB2E100F328E5 /* Assets.xcassets */; };
 		8A1DCC2A296DB2E100F328E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DCC28296DB2E100F328E5 /* LaunchScreen.storyboard */; };
 		8A1DCC34296EF50D00F328E5 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DCC33296EF50D00F328E5 /* NewsListTableViewController.swift */; };
+		8A1DCC37296F03D700F328E5 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DCC36296F03D700F328E5 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8A1DCC29296DB2E100F328E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1DCC2B296DB2E100F328E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A1DCC33296EF50D00F328E5 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		8A1DCC36296F03D700F328E5 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8A1DCC1C296DB2DE00F328E5 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				8A1DCC35296F03C700F328E5 /* Models */,
 				8A1DCC32296EF4CC00F328E5 /* Controllers */,
 				8A1DCC1D296DB2DE00F328E5 /* AppDelegate.swift */,
 				8A1DCC1F296DB2DE00F328E5 /* SceneDelegate.swift */,
@@ -73,6 +76,14 @@
 				8A1DCC33296EF50D00F328E5 /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A1DCC35296F03C700F328E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1DCC36296F03D700F328E5 /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1DCC37296F03D700F328E5 /* Article.swift in Sources */,
 				8A1DCC1E296DB2DE00F328E5 /* AppDelegate.swift in Sources */,
 				8A1DCC34296EF50D00F328E5 /* NewsListTableViewController.swift in Sources */,
 				8A1DCC20296DB2DE00F328E5 /* SceneDelegate.swift in Sources */,
