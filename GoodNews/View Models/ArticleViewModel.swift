@@ -33,9 +33,11 @@ struct ArticleViewModel {
 }
 
 extension ArticleViewModel {
+    
     init(_ article: Article) {
         self.article = article
     }
+    
 }
 
 extension ArticleViewModel {
@@ -47,5 +49,6 @@ extension ArticleViewModel {
     var description: String {
         return self.article.description
     }
+    
 }
 
